@@ -1,0 +1,16 @@
+body { 
+	font-size: 0; 
+	display: flex; 
+	flex-flow: row wrap;
+	background: blue; 
+}
+
+body > * { 
+	flex: auto; 
+	width: 200px; 
+}
+
+body > * img { 
+	width: 100%; 
+	height: auto; 
+}
